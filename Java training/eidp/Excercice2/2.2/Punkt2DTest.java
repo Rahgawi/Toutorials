@@ -29,7 +29,10 @@ public class Punkt2DTest {
         System.out.println(dP.ToString());
 
 
-
+        Strecke s1 = new Strecke(p1,p2);
+        Punkt2D eM = s1.mittelpunkt(p1,p2);
+        System.out.println("Strecke1" + s1.ToString());
+        System.out.println("Mittelpunkt s1" + eM.ToString());
 
 
 
